@@ -26,5 +26,5 @@ std::string Logger::readLog() {
     if (std::getline(readStream_, message)) {
         return message;
     }
-    return ""; // Возвращаем пустую строку, если больше нет данных для чтения
+    return ""; 
 }
